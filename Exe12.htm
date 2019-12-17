@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+
+    <script>
+        /*12 - A prefeitura do Rio de Janeiro abriu uma linha de crédito para os funcionários estatutários.
+         O valor máximo da prestação não poderá ultrapassar 30% do salário bruto. Fazer um algoritmo que permita 
+        entrar com o salário bruto e o valor da prestação e informar se o empréstimo pode ou não ser concedido*/
+
+        var salbruto=Number(window.prompt("Digite o valor da renda:"))
+        var emprestimo=Number(window.prompt("Digite o valor da prestação:"))
+        var resultado = salbruto * 0.3
+        if (emprestimo <= resultado){
+            alert("Emprestimo concedido!")
+        }
+        else{
+            alert("Valor do emprestimo ultrapassa 30% da renda informada!")
+        }
+
+
+
+
+    </script>
+    
+</body>
+</html>

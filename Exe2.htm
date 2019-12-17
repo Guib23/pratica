@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        /*Criar um algoritmo que efetue o cálculo do salário líquido de um professor. Os dados fornecidos serão:
+valor da hora aula, número de aulas dadas no mês e percentual de desconto do INSS*/
+
+        var ha=Number(window.prompt("Digite o valor pago por hora de aula: "))
+        var hm=Number(window.prompt("Digite a quantidade de aulas dadas no mÊs: "))
+        function descinss(x,y){
+            var salbruto =x*y
+            var salliqui = salbruto - (salbruto*0.09)
+            return salliqui
+        }
+        alert("O salário liquido com o desconto é: " + descinss(ha,hm))
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        /*Todo restaurante, embora por lei não possa obrigar o cliente a pagar, cobra 10% para o garçom. Fazer um
+algoritmo que leia o valor gasto com despesas realizadas em um restaurante e imprima o valor total com a*/
+        
+        var comanda =Number(window.prompt("Digite o valor total da comanda:"))
+
+        function descservico(x){
+        var desc = comanda*0.10
+        var total= comanda+desc
+        return total
+        }
+    alert("O valor total da sua conta com a taxa de serviço 10% é " + descservico(comanda) + ".")
+
+    </script>
+    
+</body>
+</html>

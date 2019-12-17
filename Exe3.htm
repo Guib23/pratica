@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        /*Em épocas de pouco dinheiro, os comerciantes estão procurando aumentar suas vendas oferecendo
+desconto. Faça um algoritmo que possa entrar com o valor de um produto e imprima o novo valor tendo em
+vista que o desconto foi de 9%.*/
+
+        var valor=Number(window.prompt("Digite o valor do produto:"))
+        function desc(x){
+            var valordesc = valor - (valor*0.09)
+            return valordesc
+        }
+        alert("Com o desconto de 9% você pagará pelo item o valor de R$:  " + desc(valor) + ".")
+
+        
+    </script>
+    
+</body>
+</html>

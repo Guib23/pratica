@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        /*Construir um algoritmo que leia dois números e efetue a adição. Caso o valor somado seja maior que 20,
+        este deverá ser apresentado somando-se a ele mais 8; caso o valor somado seja menor ou igual a 20,
+        este deverá ser apresentado subtraindo-se 5.*/
+
+        var n1=Number(window.prompt("Digite um numero:"))
+        var n2=Number(window.prompt("Digite um numero:"))
+        
+        function dez(x,y){ 
+        if (n1+n2 > 20)
+            alert("O resultado da soma dos números é: " + (n1+n2+8))
+        else if (n1+n2 < 20)
+            alert("O resultado da soma dos números é: " + (n1+n2-5)) 
+        else
+            alert("Os valores inseridos quando somadas não são maiores que 20")
+        }
+        dez(n1,n2)
+    </script>
+
+    </script>
+    
+</body>
+</html>
